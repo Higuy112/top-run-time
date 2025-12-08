@@ -20,4 +20,6 @@ You can then run it by double clicking on the .py file or going into terminal or
 For mac, it should be
 > python3 top_run.py
 
+Use the file path version instead of world folder version if non-any% timer category
+
 Tutorial video: https://www.youtube.com/watch?v=BkZcR-QUnA4
