@@ -12,7 +12,7 @@ if you'd like to run the .py directly, you'll need to install [python](https://w
 
 If you're on windows, you can run this via the commands
 
-> python -m pip install easygui
+> py -m pip install easygui
 
 Depending on the setup you may need to replace 'python' with 'python3'.
 
