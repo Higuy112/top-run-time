@@ -12,8 +12,8 @@ print('tdlp - timed dimension load pause')
 print('np - normal pause')
 print('up - untimed pause')
 print('\n')
-print('this tool is designed to work with version 8+ logs')
-print('if the timer version is 7.2.4 or lower, user the other retimer')
+print('this tool is designed to work with version 8+ ANY% logs')
+print('if the timer version is 7.2.4 or lower, or uses a different timer category, user the other retimer')
 print('\n\n')
 
 def spaces(n):
