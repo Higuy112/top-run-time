@@ -19,10 +19,10 @@ Depending on the setup you may need to replace 'python' with 'python3'.
 The other dependencies are included by installing python.
 
 You can then run it by double clicking on the .py file or going into terminal or command prompt and running it there after changing directories to wherever the .py is on your computer. For windows users on command prompt, just send
-> py -3 top_run.py
+> py -3 "top run retime 3.0.py"
 
 For mac, it should be
-> python3 top_run.py
+> python3 "top run retime 3.0.py"
 
 Use the file path version instead of world folder version if non-any% timer category
 
