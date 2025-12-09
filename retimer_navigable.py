@@ -3,6 +3,10 @@ from pathlib import Path
 import easygui
 import datetime
 
+#modication of meera's top run retimer script to work with SpeedrunIGT versions 8+
+#salix did some stuff for version 8+
+#higuy made it navigable
+
 def showCommands():
     print("Commands:")
     print(" n/next        - go to next pause")

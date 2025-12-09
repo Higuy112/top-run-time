@@ -26,4 +26,6 @@ For mac, it should be
 
 Use the file path version instead of world folder version if non-any% timer category
 
+Defaults to 'np' if no input
+
 Tutorial video: https://www.youtube.com/watch?v=BkZcR-QUnA4
