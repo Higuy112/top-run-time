@@ -1,4 +1,5 @@
 import csv
+from pathlib import Path
 import easygui
 import datetime
 
@@ -138,7 +139,8 @@ newf.append(origfile[-5])
 newf.append('retimed IGT for top run retiming to '+ftime)
 #print(newf)
 fname = input('enter name for output file: ')
-with open(fname+'.txt', 'w') as f:
+outfile = Path(fpath).parents[2]+'\\'+fname+'.txt'
+with open(outfile, 'w') as f:
     for line in newf:
         f.write(line+'\n')
 
