@@ -139,9 +139,9 @@ newf.append('')
 newf.append(origfile[-5])
 newf.append('retimed IGT for top run retiming to '+ftime)
 #print(newf)
-fname = input('enter name for output file: ')
+fname = input('enter name for output file: ')+'.txt'
 #will go in same folder as SavesFolderReader
-outfile = Path(fdir).parent+'\\'+fname+'.txt'
+outfile = Path(fdir).parent/fname
 with open(outfile, 'w') as f:
     for line in newf:
         f.write(line+'\n')
