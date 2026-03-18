@@ -5,7 +5,7 @@ import datetime
 
 #modication of meera's top run retimer script to work with SpeedrunIGT versions 8+
 #salix did some stuff for version 8+
-#higuy made it navigable
+#lune made it navigable
 
 def showCommands():
     print("Commands:")
@@ -114,8 +114,9 @@ print("Interactive navigation: 'h' for help.")
 
 while True:
     print("-" * 60)
-    show_pause(pauses[idx])
-    cmd = input("enter type of pause (h for help): ").strip().lower()
+    if idx < n:
+        show_pause(pauses[idx])
+    cmd = input("enter type of pause or command (h for help): ").strip().lower()
     if not cmd:
         continue
     parts = cmd.split()
@@ -147,7 +148,7 @@ while True:
                     idx += 1
                 else:
                     break
-        else:
+        if idx >= n:
             print("Last pause reached. To finish, use 'finish' command.")
     elif c == 'auto':
         pauses[idx]['assigned'] = None
